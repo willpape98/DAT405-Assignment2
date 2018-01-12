@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+header {
+  /*setting padding */
+  padding: 20px;
+  /*setting height and width of header */
+	width: 100%;
+  /*setting background color */
+	background-color: #a2a3a5;
+  /*setting font size and family and allignment of text */
+	font-size: 30px;
+  font-family: serif;
+  text-align: center;
+}
+
+#myContainer{
+  width: 1280px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+footer {
+
+  /* here i set the position to fixed to ensure the footer was at the bottom of the page and not under the header*/
+    position: fixed;
+    bottom: 0;
+    /*setting padding, height and width of the footer, background color text size, allingment and family */
+  	padding-top: 25px;
+  	padding-bottom: 50px;
+
+    width: 100%;
+  	background-color: #a2a3a5;
+  	font-size: 24px;
+    font-family: serif;
+    text-align: center;
+ }
